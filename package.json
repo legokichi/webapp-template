@@ -1,0 +1,27 @@
+{
+  "name": "duxca.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "watch": "grunt watch",
+    "debug":"node-dev dist/server.js",
+    "inspector": "node-debug dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.11.1",
+    "socket.io": "^1.3.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-jade": "^0.14.0",
+    "grunt-contrib-stylus": "^0.20.0",
+    "grunt-contrib-watch": "*",
+    "node-inspector": "^0.8.3"
+  }
+}
